@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="../ruta de programación/html5 y css3/reset.css/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
- 
+    <link rel="stylesheet" href="CSS/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        <div class="caja">
-            <img src="Vector.png" alt="logo" id="logo">
-        </div>
+        <img src="Vector.png" alt="logo de alura" class="logo">       
     </header>
 
     <main>
-        <section class="texto-ingresado">
-             <textarea  cols="30" rows="10">Ingrese el texto aquí</textarea>
-            <img src="Vector-exclamacion.png" alt="signo-exclamacion" id="signo-exclamacion">
-           <p class="requisito">Solo letras minúsculas y sin acentos</p>
-        </section>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder= "Ingrese el texto aquí"></textarea>
+            <div>
+                <img src="Vector-exclamacion.png" alt="signo-exclamacion" id="signo-exclamacion">
+                <h6 class="Informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+             </div>
 
-        <section class="encriptar">
-            <input type="button" value="Encriptar">
-            <input type="button" value="Desencriptar">
         </section>
-
-        <section class="resultado">
-            <img src="Muñeco.png" alt="muñeco">
-            <h1>Ningún mensaje fue encontrado</h1>
-            <textarea cols="30" rows="2">Ingresa el texto que desees encriptar o desencriptar.</textarea>
-            <input type="button" value="Copiar">
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
         </section>
     </main>
     
