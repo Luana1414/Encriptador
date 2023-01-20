@@ -9,10 +9,14 @@
 .logo{
     padding-top: 10px;
     margin-left: 10px;
-    width: 8%;
+    width: 5%;
 }
 
-
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
 
 
 
