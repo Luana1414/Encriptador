@@ -87,3 +87,10 @@ main{
     position: absolute;
     width: 336px;
 }
+
+.Informacion{
+    color: #495057;
+    font-size: 18px;
+    display: inline;
+}
+
