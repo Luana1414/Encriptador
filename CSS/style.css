@@ -1,0 +1,19 @@
+#logo{
+    margin: 60px 0px 40px 40px;
+}
+
+textarea{
+    background: rgb(245, 240, 240);
+    margin-left:40px ;
+}
+
+#signo-exclamacion{
+  display:flex;  
+}
+
+.requisito{
+    display:inline-flex;
+}
+
+
+
